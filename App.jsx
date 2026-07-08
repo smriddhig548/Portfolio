@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { ThemeProvider } from './context/ThemeContext';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import NotFound from './pages/NotFound';
+import { ThemeProvider } from './ThemeContext';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
+import NotFound from './NotFound';
 
 function App() {
   return (

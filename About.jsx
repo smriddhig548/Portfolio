@@ -1,5 +1,5 @@
-import Reveal from '../components/Reveal';
-import SkillChart from '../components/SkillChart';
+import Reveal from './Reveal';
+import SkillChart from './SkillChart';
 
 function About() {
   return (

@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
-import ProjectCard from '../components/ProjectCard';
-import Reveal from '../components/Reveal';
+import ProjectCard from './ProjectCard';
+import Reveal from './Reveal';
 
 function Home() {
   const heroRef = useRef(null);
@@ -21,7 +21,7 @@ function Home() {
       <section className="hero" ref={heroRef} onMouseMove={handleMouseMove}>
         <div className="hero-content">
           <span className="hero-eyebrow hero-anim hero-anim-1">Available for Internships · aug 2026</span>
-          <h1 className="hero-anim hero-anim-2">Smriddhi Gupta</h1>
+          <h1 className="hero-anim hero-anim-2">smriddhigupta28-portfolio.netlify.app</h1>
           <p className="tagline hero-anim hero-anim-3">
             Digital Business &amp; Data Science student, passionate about leveraging data to drive insights and innovation. Skilled in Python, R, and Java, with a strong foundation in data analysis, machine learning, and software development.
           </p>
@@ -30,7 +30,7 @@ function Home() {
             <Link to="/contact" className="cta-button">
               Get in touch
             </Link>
-            <a href="/Smriddhi Gupta Resume.pdf" className="cta-secondary" download="Smriddhi_Gupta_Resume.pdf">
+            <a href="/Smriddhi_Gupta_Resume.pdf" className="cta-secondary" download="Smriddhi_Gupta_Resume.pdf">
               Download resume
             </a>
           </div>
