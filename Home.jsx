@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
-import ProjectCard from '../components/ProjectCard';
-import Reveal from '../components/Reveal';
+import ProjectCard from './ProjectCard';
+import Reveal from './Reveal';
 
 function Home() {
   const heroRef = useRef(null);

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Reveal from '../components/Reveal';
+import Reveal from './Reveal';
 
 function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
