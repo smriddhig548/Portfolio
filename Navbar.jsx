@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <nav aria-label="Main navigation" className="navbar">
-      <span className="nav-brand">Smriddhi Gupta</span>
+      <span className="nav-brand">smriddhigupta28-portfolio.netlify.app</span>
 
       <button
         className="nav-toggle"
